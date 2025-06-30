@@ -1,0 +1,42 @@
+=========================
+TUTORIAL RÁPIDO - RODAR app.py COM FLASK
+=========================
+
+ CRIE E ATIVE O AMBIENTE VIRTUAL
+
+No terminal (CMD ou PowerShell), dentro da pasta do projeto:
+
+    python -m venv venv
+    venv\Scripts\activate
+
+-------------------------
+
+ INSTALE AS DEPENDÊNCIAS
+
+    pip install flask
+    pip install openpyxl       ← (se for importar Excel)
+
+-------------------------
+
+ RODE O SERVIDOR
+
+Com o ambiente ativado e na pasta onde está o app.py:
+
+    python app.py
+
+(app.py precisa conter no final:)
+    if __name__ == '__main__':
+        app.run(debug=True)
+
+-------------------------
+
+ ACESSE NO NAVEGADOR
+
+    http://127.0.0.1:5000/
+    ou
+    http://localhost:5000/
+
+-------------------------
+
+ Pronto! Seu projeto Flask está rodando.
+
