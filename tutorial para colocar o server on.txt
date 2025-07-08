@@ -24,19 +24,10 @@ Com o ambiente ativado e na pasta onde está o app.py:
 
     python app.py
 
-(app.py precisa conter no final:)
-    if __name__ == '__main__':
-        app.run(debug=True)
-
 -------------------------
 
- ACESSE NO NAVEGADOR
+  RODE O BANCO DE DADOS
 
-    http://127.0.0.1:5000/
-    ou
-    http://localhost:5000/
+  python db.py
 
 -------------------------
-
- Pronto! Seu projeto Flask está rodando.
-
