@@ -18,16 +18,17 @@ No terminal (CMD ou PowerShell), dentro da pasta do projeto:
 
 -------------------------
 
+  RODE O BANCO DE DADOS
+
+  python db.py
+
+-------------------------
+
+
  RODE O SERVIDOR
 
 Com o ambiente ativado e na pasta onde está o app.py:
 
     python app.py
-
--------------------------
-
-  RODE O BANCO DE DADOS
-
-  python db.py
 
 -------------------------
